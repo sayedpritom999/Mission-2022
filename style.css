@@ -1,0 +1,254 @@
+body {
+    font-family: poppins;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #3E3E3E;
+    line-height: 28px;
+}
+
+small {
+    font-size: 16px;
+    color: #424242;
+    line-height: auto;
+}
+
+button {
+    width: 172px;
+    height: 48px;
+    background-image: linear-gradient(to left, #5ec9ff 10%, #84fab0 100%);
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image {
+    width: 50%;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+}
+
+.header-texts {
+    width: 550px;
+}
+
+.header-texts h1 {
+    font-family: 'Yeseva One';
+    font-size: 60px;
+    color: #333333;
+    padding-left: 10px;
+    border-left: 5px solid orange;
+    border-image:
+        linear-gradient(to bottom,
+            #1addff,
+            #ebff38) 1 100%;
+}
+
+#mission-2022-header-txt {
+    font-family: 'Yeseva One';
+    color: #FFAD5A
+}
+
+.header-texts button {
+    width: 172px;
+}
+
+.body-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.body-section h1 {
+    text-align: center;
+    margin: 200px 0 100px 0;
+    font-weight: 700;
+    font-size: 48px;
+    color: #13103A;
+
+}
+
+.body-section h1>span {
+    color: #FFAD5A;
+}
+
+.my-mission-section {
+    margin: 0 auto 300px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-mission-section>div {
+    width: 30%;
+    height: 370px;
+    height: auto;
+    border-radius: 26px;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.my-mission-section>div>div {
+    width: 141px;
+}
+
+.my-mission-section>div>div img {
+    width: 100%;
+    height: auto;
+}
+
+#mission {
+    background-color: rgba(79, 157, 166, .1);
+}
+
+#vision {
+    background-color: rgba(255, 89, 89, .1);
+}
+
+#goal {
+    background-color: rgba(255, 244, 214, 1);
+}
+
+
+.develop-section-bg-image {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-y: 50px;
+    background-position-x: -200px;
+}
+.global-community-section-bg-image {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-y: 50px;
+    background-position-x: right;
+}
+
+.develop-section, .global-community-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.develop-section div:nth-child(1), .global-community-section div:nth-child(2) {
+    width: 30%;
+    height: auto;
+
+}
+
+.develop-section>div>img, .global-community-section>div>img {
+    width: 100%;
+    height: auto
+}
+
+.develop-section div:nth-child(2), .global-community-section div:nth-child(1) {
+    width: 60%;
+    height: auto;
+}
+
+.develop-section div:nth-child(2) > h2, .global-community-section div:nth-child(1) > h2 {
+    font-size: 36px;
+    color: #333333;
+}
+
+.nft-application, .finance-application {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+}
+.nft-application div:nth-child(2), .finance-application div:nth-child(1)   {
+    width: 50%;
+    height: auto;
+}
+.nft-application > video {
+    width: 45%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.finance-application div:nth-child(2) {
+    width: 45%;
+    height: auto;
+}
+.finance-application div:nth-child(2)>img {
+    border-radius: 26px;
+    width: 100%;
+    height: auto;
+}
+
+.nft-application div:nth-child(2) > h1, .finance-application div:nth-child(1) > h1 {
+    text-align: left;
+    margin: 0;
+    color: black;
+}
+
+/* 
+.corona-application div:nth-child(1) {
+    width: 40%;
+    height: auto;
+}
+.corona-application div:nth-child(1)>img {
+    width: 100%;
+    height: auto
+}
+
+.corona-application div:nth-child(2) > h1 {
+    width: 50%;
+    height: auto;
+}
+
+
+.corona-application div:nth-child(1) {
+    width: 40%;
+    height: auto;
+}
+.corona-application div:nth-child(1)>img {
+    width: 100%;
+    height: auto
+}
+
+.corona-application div:nth-child(2) > h1 {
+    width: 50%;
+    height: auto;
+} */
+
+.footer-section {
+    /* height: 200px; */
+    margin-top: 200px 0 0 0;
+    padding: 75px 0;
+    width: 100%;
+    background-color: #0B0D17;
+    text-align: center;
+    color: white;
+}
+.footer-section>h1 {
+    font-family: 'lobster';
+    font-weight: 400;
+    font-size: 36px;
+
+}
+.footer-section>h1>span {
+    color: #FF5959;
+}
+.footer-section>p {
+    color: white;
+    font-size: 14px;
+    font-family: 'manrope';
+}
