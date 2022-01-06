@@ -123,22 +123,6 @@ button {
     background-color: rgba(255, 244, 214, 1);
 }
 
-
-.develop-section-bg-image {
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 20%;
-    background-position-y: 50px;
-    background-position-x: -200px;
-}
-.global-community-section-bg-image {
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 20%;
-    background-position-y: 50px;
-    background-position-x: right;
-}
-
 .develop-section, .global-community-section {
     display: flex;
     justify-content: space-between;
@@ -199,38 +183,7 @@ button {
     color: black;
 }
 
-/* 
-.corona-application div:nth-child(1) {
-    width: 40%;
-    height: auto;
-}
-.corona-application div:nth-child(1)>img {
-    width: 100%;
-    height: auto
-}
-
-.corona-application div:nth-child(2) > h1 {
-    width: 50%;
-    height: auto;
-}
-
-
-.corona-application div:nth-child(1) {
-    width: 40%;
-    height: auto;
-}
-.corona-application div:nth-child(1)>img {
-    width: 100%;
-    height: auto
-}
-
-.corona-application div:nth-child(2) > h1 {
-    width: 50%;
-    height: auto;
-} */
-
 .footer-section {
-    /* height: 200px; */
     margin-top: 200px 0 0 0;
     padding: 75px 0;
     width: 100%;
